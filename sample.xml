@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns5:TuStoreRequest xmlns:ns6="http://server.wsdl.mhs.gide.com/" xmlns:ns5="http://gide.com/mhs/server" xmlns:ns7="http://client.wsdl.mhs.gide.com/" xmlns:ns2="http://gide.com/mhs/common/commontype" xmlns:ns4="http://gide.com/mhs/client" xmlns:ns3="http://gide.com/mhs/common">
+	<ns5:Header>
+		<ns2:ID>1000-1000-1469543865528</ns2:ID>
+		<ns2:Type>InitiateTuStore</ns2:Type>
+		<ns2:Version>v0.1</ns2:Version>
+		<ns2:Timestamp>2016-07-26T10:37:46.161-04:00</ns2:Timestamp>
+		<ns2:Sender>VMS</ns2:Sender>
+		<ns2:Receiver>MHS</ns2:Receiver>
+	</ns5:Header>
+	<ns5:MessageBody>
+		<ns5:Priority>2</ns5:Priority>
+		<ns5:TuLine>
+			<ns2:TuDetail>
+				<ns2:Denomination>CAD 1</ns2:Denomination>
+				<ns2:ValuableType>Cash</ns2:ValuableType>
+				<ns2:InventoryType>FIT</ns2:InventoryType>
+				<ns2:InventoryUnit>pieces</ns2:InventoryUnit>
+				<ns2:Denomination>CAD 2</ns2:Denomination>
+				<ns2:Quantity>100</ns2:Quantity>
+				<ns2:Value>40000</ns2:Value>
+			</ns2:TuDetail>
+			<ns2:TuId>b001</ns2:TuId>
+		</ns5:TuLine>
+		<ns5:SrcLoc>1000</ns5:SrcLoc>
+		<ns5:DestLoc>V01</ns5:DestLoc>
+		<ns2:Denomination>CAD 1</ns2:Denomination>
+		<ns5:IsHoldOver>false</ns5:IsHoldOver>
+	</ns5:MessageBody>
+</ns5:TuStoreRequest>
